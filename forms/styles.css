@@ -1,0 +1,157 @@
+body{
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url("Background_IMG/ricepaper.png");
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header{
+	color: #e8dd41;
+	text-shadow:0 0 2px #000;
+	moz-text-shadow:0 0 2px #000;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#dollar{
+	color: #129934;
+	font-size: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#leftMenu{
+	background-color: rgba(255, 255, 255, 0.5);
+	float: left;
+	width: 150px;
+	height: 240px;
+	text-align: center;
+	border-radius: 40px;
+	margin-top: 50px;
+	margin-right: 20px;
+}
+
+#leftMenu a{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#leftMenu a:link{
+	color: #129934;
+}
+
+#leftMenu a:visited{
+	color: #129934;
+}
+
+#leftMenu a:hover{
+	color: #23aa45;
+}
+
+#leftMenu a:active{
+	color: #007712;
+}
+
+#content{
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	float: left;
+	width: 660px;
+	border-radius: 40px;
+}
+
+#secContent{
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	float: left;
+	width: 660px;
+	border-radius: 40px;
+}
+
+#thirdContent{
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	border-radius: 40px;
+}
+
+#thirdContent table{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+#thirdContent table thead th{
+	text-align: center;
+}
+
+#thirdContent table thead tr th:first-child {
+	border: none;
+	padding: 0px;
+	width: 0px;
+	max-width: 0px;
+	min-width: 0px;
+}
+
+#thirdContent table tbody tr th {
+	border: none;
+	padding: 0px;
+	width: 0px;
+	max-width: 0px;
+	min-width: 0px;
+	font-size: 0px;
+}
+
+#content table{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+#content table thead th{
+	text-align: center;
+}
+
+#content table thead tr th:first-child {
+	border: none;
+	padding: 0px;
+	width: 0px;
+	max-width: 0px;
+	min-width: 0px;
+}
+
+#content table tbody tr th {
+	border: none;
+	padding: 0px;
+	width: 0px;
+	max-width: 0px;
+	min-width: 0px;
+	font-size: 0px;
+}
+
+#secContent h2{
+	color: #129934;
+}
+
+form{
+	text-align: center;
+}
+
+label{
+	color: #129934;
+}
+
+#descElement p{
+	font-size: 20px;
+}
+
+#secFigElement{
+	margin-bottom: 20px;
+}
+
+#footer{
+	margin-top: 20px;
+	color: #c1b317;
+	text-align: center;
+}

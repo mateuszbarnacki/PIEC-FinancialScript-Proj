@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-32"/>
+	<title>All currencies table</title>
+	<link rel="stylesheet" href="styles.css" type="text/css"></link>
+</head>
+<body>
+	<div id="header">
+		<span id="dollar">$</span>Financial report<span id="dollar">$</span>
+	</div>	
+	<div id="leftMenu">
+		</br></br>
+		<a href="report.html#descElement">Description</a></br></br>
+		<a href="report.html#figElement">Whole period rates</a></br></br>
+		<a href="report.html#firstFigElement">Last week rates</a></br></br>
+		<a href="report.html#secFigElement">Last months rates</a></br></br>
+		<a href="priceTable.html">Table</a></br>
+	</div>
+	<div id="content">
+		<h2>Currencies rates</h2>
+		<p>Currency name: {{ general.name }}</p>
+		<p>Currency code: {{ general.code }}</p>
+		{{ general.table }}
+	</div>
+	<div style="clear: both;"></div>
+	<div id="footer">
+		This website was generated automatically. &copy; All rights reserved.
+	</div>
+</body>
+</html>
