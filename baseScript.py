@@ -108,7 +108,7 @@ def checkGoldDataAvailability(beginDate):
     if beginDate.year < 2013:
         return False
     else: 
-        if beginDate.month == 1 and beginDate.day < 2:
+        if beginDate.month == 1 and beginDate.day < 2 and beginDate.year == 2013:
             return False
         else:
             return True
@@ -118,7 +118,7 @@ def checkCurrencyDataAvailability(beginDate):
     if beginDate.year < 2002:
         return False
     else:
-        if beginDate.month == 1 and beginDate.day < 2:
+        if beginDate.month == 1 and beginDate.day < 2 and beginDate.year == 2002:
             return False
         else:
             return True
